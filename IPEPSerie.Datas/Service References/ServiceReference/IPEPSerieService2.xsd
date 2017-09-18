@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/IPEPSerie.WCF" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/IPEPSerie.WCF" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="IPEPSResultType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ok" />
+      <xs:enumeration value="Warning" />
+      <xs:enumeration value="Error" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="IPEPSResultType" nillable="true" type="tns:IPEPSResultType" />
+  <xs:complexType name="IPEPSResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ErrorReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Result" type="tns:IPEPSResultType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IPEPSResult" nillable="true" type="tns:IPEPSResult" />
+</xs:schema>

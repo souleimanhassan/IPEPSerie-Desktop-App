@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d3b7b729-d281-499a-ae56-97623b36a1bc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52549/IPEPSerieService.svc?.wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IPEPSerieService.xsd" MetadataType="Schema" ID="3e4559dd-051c-4a59-9937-285d0813ed6b" SourceId="1" SourceUrl="http://localhost:52549/IPEPSerieService.svc?xsd=xsd1" />
+    <MetadataFile FileName="IPEPSerieService1.xsd" MetadataType="Schema" ID="2ff96813-a920-4404-abb0-a4d897cdf51c" SourceId="1" SourceUrl="http://localhost:52549/IPEPSerieService.svc?xsd=xsd0" />
+    <MetadataFile FileName="IPEPSerieService.disco" MetadataType="Disco" ID="4528c920-d38b-448d-8332-3f18b8fd6b73" SourceId="1" SourceUrl="http://localhost:52549/IPEPSerieService.svc?disco" />
+    <MetadataFile FileName="IPEPSerieService2.xsd" MetadataType="Schema" ID="8a7c954b-1898-402d-9f42-5f5ad00c7038" SourceId="1" SourceUrl="http://localhost:52549/IPEPSerieService.svc?xsd=xsd2" />
+    <MetadataFile FileName="IPEPSerieService.wsdl" MetadataType="Wsdl" ID="5ca6942d-40bb-4af9-a858-19303f0e3000" SourceId="1" SourceUrl="http://localhost:52549/IPEPSerieService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
