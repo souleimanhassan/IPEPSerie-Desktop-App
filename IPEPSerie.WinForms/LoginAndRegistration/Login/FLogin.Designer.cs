@@ -58,7 +58,7 @@
             this.Controls.Add(this.tbHello);
             this.Controls.Add(this.btnHello);
             this.Name = "FLogin";
-            this.Text = "Form1";
+            this.Text = "FLogin";
             this.ResumeLayout(false);
             this.PerformLayout();
 
